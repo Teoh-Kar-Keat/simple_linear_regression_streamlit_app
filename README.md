@@ -18,8 +18,7 @@
 ## 2. 資料理解（Data Understanding）
 
 我們使用**人工生成的線性資料**，公式如下：
-
-![image.png](attachment:4a1a3937-0eae-4a2c-80f3-1bfcec3519ef:image.png)
+ <img width="248" height="50" alt="image" src="https://github.com/user-attachments/assets/10454ede-1833-4bd5-a69b-ec05595d8aa4" />
 
 其中：
 
@@ -54,7 +53,8 @@ Y = a * X + b + noise
 
 使用 **普通最小二乘 (OLS) 線性回歸**：
 
-![image.png](attachment:a3ecb82d-e0fb-4183-8a88-3a5a24be6897:image.png)
+<img width="178" height="54" alt="image" src="https://github.com/user-attachments/assets/1b9d90e2-e59e-4e72-9cc3-5a646d05ea33" />
+
 
 ### 3.2 Python 實作
 
@@ -74,7 +74,7 @@ Y_pred = model.predict(X_reshaped)
 
 - **決定係數** R²：衡量擬合解釋變異比例
 
-![image.png](attachment:56234edd-e1f0-4179-bf76-1d8ae43c0e14:image.png)
+<img width="273" height="75" alt="image" src="https://github.com/user-attachments/assets/137f2642-a39c-4a7f-8883-f708275e2f48" />
 
 ### 4.22 觀察與討論
 
@@ -119,4 +119,5 @@ Y_pred = model.predict(X_reshaped)
 
 link :  https://simple-regression-graph.streamlit.app/
 
-![image.png](attachment:f7f14cc6-81d0-44d0-9ad7-c74b58c505d0:image.png)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/47e3f59b-03fd-4b93-b8bf-19046a705e3d" />
+
