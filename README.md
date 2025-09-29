@@ -119,7 +119,7 @@ Y_pred = model.predict(X_reshaped)
 1. **資料與擬合線圖**
     - 原始資料點（藍色）、擬合線（紅色）、離群點（橘色）
 
-link :  https://simple-regression-graph.streamlit.app/
+APP 鏈接 :  https://simple-regression-graph.streamlit.app/
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/47e3f59b-03fd-4b93-b8bf-19046a705e3d" />
 
