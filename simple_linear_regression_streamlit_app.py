@@ -30,7 +30,7 @@ st.set_page_config(page_title="HW1 — Simple Linear Regression", layout="wide")
 # ----- Sidebar: Config -----
 st.sidebar.title("Configuration")
 num_points = st.sidebar.slider("Number of data points", min_value=10, max_value=1000, value=100, step=10)
-coef = st.sidebar.slider("Coefficient (slope a)", min_value=-10.0, max_value=10.0, value=2.0, step=0.1)
+coef = st.sidebar.slider("Coeffici ent (slope a)", min_value=-10.0, max_value=10.0, value=2.0, step=0.1)
 noise_var = st.sidebar.slider("Noise variance", min_value=0.0, max_value=10.0, value=1.0, step=0.1)
 
 # ----- Data Generation -----
@@ -70,7 +70,7 @@ with col1:
     st.write(f"<span style='font-size:1.2em;'>Intercept (b̂): <b>{model.intercept_:.4f}</b></span>", unsafe_allow_html=True)
 
     st.markdown('<h2 style="font-size:1.7em;">Outliers</h2>', unsafe_allow_html=True)
-    outlier_df = pd.DataFrame({"x": X[outliers], "y": Y[outliers], "residual": residuals[outliers]})
+    outlier_df = pd.DataFrame({"X": X[outliers], "Y": Y[outliers], "Residual": residuals[outliers]})
     if not outlier_df.empty:
         st.dataframe(outlier_df)
     else:
