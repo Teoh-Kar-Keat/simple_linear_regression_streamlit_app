@@ -18,10 +18,12 @@
 ## 2. 資料理解（Data Understanding）
 
 我們使用**人工生成的線性資料**，公式如下：
+
+
  <img width="248" height="50" alt="image" src="https://github.com/user-attachments/assets/10454ede-1833-4bd5-a69b-ec05595d8aa4" />
 
-其中：
 
+其中：
 - a：斜率 (Slope)
 - b：截距 (Intercept)
 - ϵ∼N(0,σ2)：高斯雜訊
