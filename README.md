@@ -123,3 +123,69 @@ APP 鏈接 :  https://simple-regression-graph.streamlit.app/
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/47e3f59b-03fd-4b93-b8bf-19046a705e3d" />
 
+## 10. 指令
+
+**Prompt：**
+
+請幫我生成一份完整的《HW1 書面報告 — 簡單線性回歸與 CRISP-DM》，
+
+報告需以 **Markdown 格式** 撰寫，內容包含文字說明、數學公式與 Python 程式碼。
+
+---
+
+報告必須分為以下章節：
+
+1. **作業目的 (Objective)**
+    
+    說明作業重點：以簡單線性回歸探索 X、Y 的線性關係，並結合 CRISP-DM 流程。
+    
+2. **資料理解 (Data Understanding)**
+    
+    - 介紹資料生成公式 Y=aX+b+εY = aX + b + \varepsilonY=aX+b+ε，其中 ε∼N(0,σ2)\varepsilon \sim N(0, \sigma^2)ε∼N(0,σ2)。
+    
+    - 解釋各參數：a、b、σ、n、seed。
+    
+    - 加入 Python 生成程式碼，能調整這些參數並繪出散佈圖。
+    
+3. **建模 (Modeling)**
+    
+    - 使用 `sklearn.linear_model.LinearRegression` 完成普通最小二乘 (OLS) 模型。
+    
+    - 請顯示模型擬合公式與估計結果。
+    
+    ### 報告要求：
+    
+    - 程式碼需輸出斜率、截距、R²。
+    
+4. **評估 (Evaluation)**
+    
+    - 使用 R² 作為主要指標。
+    
+    - 生成多組不同噪聲標準差 σ 的比較圖，說明雜訊對模型的影響。
+    
+    - 圖表說明：資料散佈圖、真實線、擬合線、R² 值。
+    
+5. **部署與互動 (Deployment)**
+    
+    - 使用 Streamlit 實作互動式 Web App：
+    
+    - Sidebar 控制項（a、b、n、σ）
+    
+    - 主畫面顯示：
+    
+    - 散佈圖與擬合線
+    
+    - 模型係數與 R²
+    
+    - 提供 CSV 下載功能（X, Y）。
+    
+6. **結論 (Conclusion)**
+    
+    - 整合 CRISP-DM 六階段在本實作的應用。
+    
+    - 簡述線性回歸與噪聲關係、資料量對模型穩定度的觀察。
+    
+7. **附錄 (Appendix)**
+    
+    - 附上 Streamlit 完整可執行程式碼。
+
